@@ -1,0 +1,228 @@
+.logo {
+    width: 40px;
+}
+
+.navbar-brand {
+    color: #DC0000;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.dropdown-item {
+    color: #850000;
+}
+
+.dropdown-item:hover {
+    color: #DC0000;
+}
+
+.nav-link {
+    color: #850000;
+    font-family: Manrope;
+}
+
+.nav-link:hover {
+    color: #DC0000;
+}
+
+
+/* ----------Left Panel-------- */
+
+.card {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+
+.member-btn {
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.testimonial-image {
+    width: 50%;
+    border-radius: 70px;
+    margin-bottom: 10px;
+}
+
+/* ------- */
+.browse-subjects-item > ul > li {
+    list-style: none;
+    text-align: left;
+}
+
+.browse-subjects-item > ul > li > a {
+    text-decoration: none;
+    color: #850000;
+}
+
+.browse-subjects-item > ul > li > a:hover {
+    color: #DC0000;
+}
+
+
+.enter-mrn-text {
+    margin-bottom: 40px;
+}
+.left-panel-input {
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 80%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.left-panel-input::placeholder{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.left-panel-submit {
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #DC0000;
+    color: white;
+    font-size: 0.8rem;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* --------Search----------- */
+
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 60px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #850000;
+    padding: 1px 3px;
+    margin: 0 auto;
+    backdrop-filter: blur(4px) saturate(300%);
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+::placeholder {
+    color: rgb(66, 66, 66);
+    text-align: left;
+}
+
+.search-bar button i {
+    width: 15px;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    background: rgb(212, 209, 209);
+}
+
+.cover-searchbar {
+    margin: 0 auto;
+}
+
+
+
+/* ---------Browse by Subjects----- */
+.big-browse {
+    color: #DC0000;
+    margin: 15px 0;
+}
+
+.big-browse-list {
+    list-style: none;
+}
+
+.big-browse-list > li > a {
+    text-decoration: none;
+    color: #850000;
+}
+
+.big-browse-list > li > a:hover {
+    color: #DC0000;
+}
+
+.journals-cover {
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.browse-all-journals-text {
+    color: #DC0000;
+}
+
+@media (max-width: 991px) {
+    .main-left-panel-item {
+        display: none;
+    }
+
+    .big-browse-list {
+        text-align: center;
+    }
+
+    .big-browse-list > li {
+        text-align: left;
+        margin-left: 15%;
+    }
+
+    .browse-all-journals-text {
+        text-align: left;
+        margin: 2% 0 1% 4.5%;
+    }
+
+    .big-browse-by-subject {
+        margin-left: 4.5%;
+    }
+
+    .cover-searchbar {
+        width: 91%;
+    }
+
+    .search-bar > input::placeholder {
+        text-align: center;
+    }
+
+    .big-browse-by-subject {
+        margin: 5% 0 -1.5% 4.5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile-view-hidden {
+        display: none;
+    }
+    .browse-all-journals-text {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .horizontal-line {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .big-browse-list {
+        width: 50%;
+    }
+
+    
+}

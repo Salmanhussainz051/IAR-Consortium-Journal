@@ -1,0 +1,404 @@
+.logo {
+    width: 40px;
+}
+
+.navbar-brand {
+    color: #DC0000;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.dropdown-item {
+    color: #850000;
+}
+
+.dropdown-item:hover {
+    color: #DC0000;
+}
+
+.nav-link {
+    color: #850000;
+    font-family: Manrope;
+}
+
+.nav-link:hover {
+    color: #DC0000;
+}
+
+.cover-image {
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+.title-text {
+    font-family: Manrope;
+    text-align: center;
+    color: #DC0000;
+}
+
+.welcome-to {
+    margin-top: 70px;
+    font-family: Lora;
+    font-weight: 700;
+}
+
+.iarc {
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 1.3rem;
+    font-family: Lora;
+}
+
+.large-btn {
+    border-radius: 50px;
+    justify-content: space-between;
+    margin: 20% 5%;
+    background-color: #DC0000;
+    border: none;
+}
+
+.large-btn:hover {
+    background-color: #850000;
+}
+
+.btn-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.btn-link:hover {
+    color: white
+}
+
+.row-one {
+    margin-bottom: 5%;
+}
+
+#title {
+    padding: 0 5%;
+}
+
+
+
+
+/* ------------About Us----------- */
+
+.about-us {
+    text-align: center;
+    padding-top: 30px;
+    font-family: Lora;
+}
+
+.about-us-para {
+    justify-content: stretch;
+    text-align: center;
+    padding: 1% 1%;
+    font-size: 0.7rem;
+    font-family: Manrope;
+}
+
+
+.about-us-cover {
+    width: 13%;
+    padding: 2rem;
+}
+
+.covers {
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+#about-us-page {
+    background-color: #DC0000;
+    color: white;
+    padding: 0 5%;
+}
+
+/* ------Search------ */
+
+.search-bar {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 60px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    backdrop-filter: blur(4px) saturate(300%);
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 17px;
+    color: white;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.search-bar button i {
+    width: 15px;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background: rgb(212, 209, 209);
+}
+
+.cover-searchbar {
+    margin: 3% auto;
+    padding-bottom: 1%;
+}
+
+/* -----Our Services------ */
+
+.our-services {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Lora;
+}
+
+.our-services-item {
+    text-align: center;
+    padding: 50px 0;
+    font-family: Lora;
+}
+
+.our-services-icon {
+    color: rgb(0, 0, 0);
+}
+
+#our-services-sec {
+    padding: 0 5%;
+}
+
+
+/* ----------Cards------- */
+
+.two-cards {
+    padding: 5% 10% 2%;
+    text-align: center;
+    color: #850000;
+}
+
+.card-search {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.card-body input::placeholder {
+    color: rgb(187, 187, 187);
+}
+
+.card-list {
+    text-align: left;
+    padding-left: 32%;
+}
+
+#cards {
+    background-color: #DC0000;
+}
+
+.d-grid button {
+    background-color: #850000;
+}
+
+.d-grid button:hover {
+    background-color: #DC0000;
+}
+
+/* ------Testimonials----- */
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 70px;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 3% 5%;
+    color: white;
+}
+
+#testimonials {
+    background-color: #DC0000;    
+}
+
+/* -------Footer---------- */
+
+.footer-info {
+    padding-top: 20px;
+    text-align: center;
+    line-height: 0.4;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+}
+
+.footer-icon {
+    text-align: center;
+}
+
+.social-icon {
+    margin: 30px 15px 0;
+    color: black;
+}
+
+.copy-right {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 10px 0;
+}
+
+
+
+
+
+@media (max-width: 1132px) {
+
+    .welcome-to {
+        margin-top: 3%;
+    }
+
+    .title-text button {
+        padding: 10px;
+    }
+    
+    .cover-btn {
+        font-size: 0.8rem;
+    }
+
+    .our-services {
+        font-size: 2rem;
+    }
+
+    .our-services-item {
+        font-size: 0.7rem;
+    }
+
+    .testimonial-text {
+        font-size: 0.7rem;
+    }
+
+    .footer-info {
+        font-size: 0.7rem;
+    }
+
+    .about-us {
+        font-size: 2rem;
+    }
+
+    #title {
+        margin-bottom: -5%;
+    }
+
+    #about-us-page {
+        padding-bottom: 2px;
+    }
+
+    .social-icon {
+        font-size: 1.2rem;
+    }
+
+    .covers {
+        display: none;
+    }
+
+    .search-bar {
+        width: 70%;
+        padding: 4px 5px;
+    }
+
+    .search-bar input::placeholder {
+        font-size: 0.8rem;
+    }
+
+    .our-services-item {
+        padding: auto 2%;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .covers {
+        display: none;
+    }
+
+    .cover-image {
+        width: 75%;
+    }
+
+    .cover-image-col {
+        text-align: center;
+    }
+
+    #about-us-page {
+        padding-bottom: 5px;
+    }
+
+    .d-grid button {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .social-icon {
+        font-size: 1.2rem;
+    }
+
+    .title-text button {
+        margin: 60px 25px 40px;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .welcome-to {
+        font-size: 1.5rem;
+        margin-bottom: -4%;
+    }
+
+    .iarc {
+        font-size: 1rem;
+        margin-bottom: -5%;
+    }
+
+    .cover-btn {
+        width: 30%;
+        font-size: 0.5rem;
+    }
+
+    .about-us {
+        font-size: 1.5rem;
+        padding-top: 5px;
+    }
+
+    .about-us-para {
+        font-size: 0.6rem;
+    }
+
+    .search-bar {
+        padding: 0 10px;
+    }
+
+    
+
+
+}
